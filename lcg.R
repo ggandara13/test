@@ -1,6 +1,3 @@
-
-
-
 linear.congruence <- function(a=22695477, 
                               b=1, 
                               m=2**32, 
@@ -12,11 +9,3 @@ linear.congruence <- function(a=22695477,
     return(c(1,random.number))
   }
 }
-
-save(list = ls(all = TRUE), file= "all.rda")
-
-#rm(list=ls()) 
-# restore the saved values to the user's workspace
-#load("all.rda")
-
-
